@@ -2,11 +2,12 @@
 
 Projects on the use of POSIX Threads  
 
---3 versions of the prime check problem: 
+--4 versions of the prime check problem: 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check: multithreading with the use of volatile variables  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_mutex: multithreading using mutex  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check: multithreading using volatile variables  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_mutex: multithreading using mutexes
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_semaphores: multithreading using semaphore library implementation  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_semaphores: multithreading using coroutines library implementation  
 
 --pipe library multithreading implementation for FIFO pipeline 
 
