@@ -1,0 +1,36 @@
+FIFO Pipe Library functions with running example  
+
+
+Description of each funtion:
+
+-void pipe_init(int size);
+
+Creates and initialises the pipe with size "int size".
+
+
+-void pipe_write(char c);
+
+Writes the next byte "char c" to the pipe. Active waiting if 
+the pipe is full.
+
+-int pipe_read(char* c);
+
+Reads the next byte from the pipe and stores it to "char* c".
+Returns 0 if the pipe is empty, 1 if read was successful.
+
+
+-void pipe_destroy();
+
+Frees the allocated memory for the pipe.
+
+
+-void pipe_writeDone();
+
+Notifies the pipe that no more bytes are going to be written.
+
+
+
+Given example: 
+
+ program to copy files using FIFO pipeline and threads
+ write thread and read thread are implemented using pipe_library functions 
