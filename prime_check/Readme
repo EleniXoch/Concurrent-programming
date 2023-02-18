@@ -4,7 +4,7 @@ Program to check if input is prime number.
 
 Number of threads used is given by user as argument (POSIX Threads)
 
-	-Pthread implementation
+	-Pthread implementation with volatile variables
 	-main.c creates/terminates "worker threads", assigns jobs and signals
 	-worker threads responsible for calculating result 
 	
