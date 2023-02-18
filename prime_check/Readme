@@ -1,1 +1,12 @@
 
+
+Simple program to check if input is prime number. 
+
+Number of threads used is given by user as argument 
+
+	-Pthread implementation
+	-main.c creates/terminates "worker threads", assigns jobs and signals
+	-worker threads responsible for calculating result 
+	
+Sample inputs are provided along with statistics from previous experiments and timing records
+ 
