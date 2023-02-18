@@ -1,1 +1,13 @@
 
+Semampore library implementation
+
+-int mysem_create(int initValue)
+-void mysem_down(int semid)
+-int mysem_up(int semid)
+-void mysem_destroy(int semid)
+-int mysem_value(int semid)
+
+Example program on prime number check using the above functions
+
+Number of threads used is given by user as argument 
+Sample inputs are provided along with Makefile
