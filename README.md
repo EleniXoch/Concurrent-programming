@@ -8,5 +8,5 @@ Projects on the use of POSIX Threads
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_mutex: multithreading using mutex  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prime_check_semaphores: multithreading using semaphore library implementation  
 
---pipe library implementation 
+--pipe library multithreading implementation for FIFO pipeline 
 
