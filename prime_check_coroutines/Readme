@@ -6,4 +6,4 @@ Implementation on
 -Semaphore handling with functions for synchronization
 -Typical prime check
 
-Code is provided along with makefile and sample program with input 
+Code is provided along with makefile, sample program with input and script for testing
