@@ -1,1 +1,9 @@
 
+Creating a program checking for prime numbers with PThreads and Coroutines
+
+Implementation on  
+-Coroutines Library to initialize, create, switch and destroy using ucontext
+-Semaphore handling with functions for synchronization
+-Typical prime check
+
+Code is provided along with makefile and sample program with input 
