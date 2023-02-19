@@ -2,8 +2,8 @@
 Creating a FIFO pipeline program with PThreads and Coroutines
 
 Implementation on  
--Coroutines functions for initialization, create switch, destroy using ucontext
+-Coroutines Library for initialization, create, switch and destroy using ucontext
 -Read and write threads
 -Pipeline functions
 
-Code is provided with makefile, sample input, 
+Code is provided along with makefile and sample input 
